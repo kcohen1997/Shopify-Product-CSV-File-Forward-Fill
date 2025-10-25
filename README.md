@@ -36,9 +36,10 @@ In Shopify, a single product can have **many variants** (for example, color or s
 
 However, descriptive fields like Title, Body (HTML), or Vendor are often only filled in the first variant row, leaving other rows empty:
 
-<img width="888" height="128" alt="Screenshot 2025-10-24 at 5 16 59 PM" src="https://github.com/user-attachments/assets/ab1c8a48-1636-450f-8282-b120cba3f4f1" />
+<img width="937" height="156" alt="Screenshot 2025-10-24 at 6 18 11 PM" src="https://github.com/user-attachments/assets/a9f080a5-2638-44c5-97f7-52ecee8bf723" />
 
-Forward-filling ensures that all variants inherit the correct product information, so your Shopify import is consistent and complete.
+Forward-filling ensures that all variants inherit the correct product information, so your Shopify import is consistent and complete. For further details about how the product csv file is structured, [click here](https://help.shopify.com/en/manual/products/import-export/using-csv)
+
 
 ---
 
