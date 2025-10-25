@@ -1,4 +1,4 @@
-# Shopify-Product-Forward-Fill
+# Shopify Product CSV File Forward Fill
 
 A simple Python GUI application to clean and forward-fill Shopify product CSV files. For a proper demo, visit the **"Releases"** tab and open the "demo_app.zip" file (there is both a Windows and Mac version).
 
