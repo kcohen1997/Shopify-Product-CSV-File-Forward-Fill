@@ -53,14 +53,12 @@ Forward-filling ensures that all variants inherit the correct product informatio
    - Columns are automatically pre-selected based on Shopify's default structure.  
    - Non-empty metafields are also pre-selected by default.  
 
-
-4. **Forward-Fill by Handle**
-   - Forward-fill occurs **within each product (grouped by Handle)**.  
-   - This ensures data from one product does **not** spill into another.
-   - Any empty fields after forward-filling are replaced with "N/A". This is done to make the file easier to read.
-   - Completely empty columns are also removed and
+3. **Forward-Fill by Handle**
+   - Forward-fill occurs **within each product (grouped by Handle)**. This ensures data from one product does **not** spill into another.
+   - A new field "Full Title" is created, combining the product Title with Option Values 1-3 (2-3 are not required, any Option1 Value with the standard "Default Title" field will not be included )
+   - After forward-filling is complete, any remaining empty fields are replaced with "N/A". This is done to make the file easier to read.
      
-5. **Save Cleaned CSV**
+4. **Save Cleaned CSV**
    - Export the cleaned CSV file to the location of your choosing.
 
 ---
