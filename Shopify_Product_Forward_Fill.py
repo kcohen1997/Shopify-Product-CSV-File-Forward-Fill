@@ -134,7 +134,7 @@ def save_file():
     file_path = filedialog.asksaveasfilename(
         defaultextension=".csv",
         filetypes=[("CSV files", "*.csv")],
-        title="Step 4: Save Cleaned Shopify CSV"
+        title="Save Cleaned Shopify CSV"
     )
     if not file_path:
         return
@@ -163,7 +163,7 @@ column_listbox.pack(fill="both", expand=True, pady=5)
 
 # Forward-fill + Save buttons
 ttk.Button(frame, text="Step 3: Forward Fill Selected Columns (by Handle)", command=forward_fill_by_handle).pack(pady=10)
-ttk.Button(frame, text="Save Cleaned CSV", command=save_file).pack(pady=10)
+ttk.Button(frame, text="Step 4: Save Cleaned CSV", command=save_file).pack(pady=10)
 
 # Launch GUI
 app.mainloop()

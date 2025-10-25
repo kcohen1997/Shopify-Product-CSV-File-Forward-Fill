@@ -1,0 +1,5 @@
+# Ignore build and distribution folders
+/dist
+/build
+/__pycache__/
+*.spec
