@@ -61,5 +61,6 @@ Forward-filling ensures that all variants inherit the correct product informatio
      
 4. **Save Cleaned CSV**
    - Export the cleaned CSV file to the location of your choosing.
+   - Body (HTML) field is cleaned to remove HTML code and special characters like Â
 
 ---
